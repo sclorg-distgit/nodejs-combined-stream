@@ -4,7 +4,7 @@
 
 Name:           %{?scl_prefix}nodejs-combined-stream
 Version:        0.0.4
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        A stream that emits multiple other streams one after another
 BuildArch:      noarch
 
@@ -40,6 +40,9 @@ rm -rf %buildroot
 %doc License Readme.md
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.0.4-5
+- rebuilt
+
 * Tue Mar 04 2014 Tomas Hrcka <thrcka@redhat.com> - 0.0.4-4
 - Add missing macro %nodejs_symlink_deps
 
